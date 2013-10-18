@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--I use to have the locking settings on true, but that was causing problems with Windows installation,
+sometimes it was only making partial copies into the temp directory.-->
+<Context swallowOutput="true" antiJARLocking="false" antiResourceLocking="false" unpackWAR="true">
+
+	<Parameter name="username" value="webform" override="false"/>
+	<Parameter name="password" value="Emnu28eg" override="false"/>
+	<Parameter name="host" value="localhost" override="false"/>
+	<Parameter name="database" value="phpdb" override="false"/>
+	<Parameter name="layout" value="upload" override="false"/>
+	<Parameter name="scbase" value="https://loans.asfgrp.com/SuperContainer/Files" override="false"/>
+	<Parameter name="scuploadbase" value="web_uploads" overrider="false"/>
+
+</Context>

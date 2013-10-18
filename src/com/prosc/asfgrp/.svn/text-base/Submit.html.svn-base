@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+	<title>ASFG - Application Processing</title>
+
+	<style type="text/css">
+		.field-block {
+			margin-left: 25px;
+		}
+
+		.button-block {
+			margin-left: 25px;
+		}
+	</style>
+</head>
+<body>
+<div class="header-image" id="header-image">
+	<a href="https://apply.asfgrp.com"><img src="https://apply.asfgrp.com/images/ASFG-Web-06_01.gif" alt="ASFG"
+	                                        width="979" height="119" border="0"></a>
+</div>
+<div class="stage-message visible" id="yui-auto-4" style="width: 400px; left: 431.5px; top: 249.5px; ">
+	<div class="title"></div>
+	<div class="error-wrapper">
+		<div wicket:id="feedback" class="error"></div>
+	</div>
+	<form wicket:id="form" action="?wicket:interface=:1:form::IFormSubmitListener::" id="form4" method="post"
+	      enctype="multipart/form-data">
+		<div style="width:0px;height:0px;position:absolute;left:-100px;top:-100px;overflow:hidden"><input type="hidden"
+		                                                                                                  name="form4_hf_0"
+		                                                                                                  id="form4_hf_0"/>
+		</div>
+		<div class="form-fields clear">
+			<br class="break">
+
+			<div class="field-block">
+				<div class="field-input"><label for="studentFistName">Student First Name</label><br><input wicket:id="studentNameFirst"
+				                                                                                 class="input-studentFirstName"
+				                                                                                 style="width: 164px;"
+				                                                                                 type="text"
+				                                                                                 id="studentFirstName"
+				                                                                                 value=""
+				                                                                                 name="studentFirstName">
+				</div>
+				<div id="inline-field-studentFirstName" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<div class="field-block">
+				<div class="field-input"><label for="studentLastName">Student Last Name</label><br><input
+						wicket:id="studentNameLast"
+						class="input-studentLastName"
+						style="width: 164px;"
+						type="text"
+						id="studentLastName"
+						value=""
+						name="studentLastName">
+				</div>
+				<div id="inline-field-studentLastName" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<br class="break">
+
+			<div class="field-block">
+				<div class="field-input"><label for="email">FAO Email your@email.com</label><br><input wicket:id="email"
+				                                                                                       class="input-email"
+				                                                                                       spellcheck="false"
+				                                                                                       style="width: 164px;"
+				                                                                                       type="text"
+				                                                                                       id="email"
+				                                                                                       value=""
+				                                                                                       name="email">
+				</div>
+				<div id="inline-field-email" class="inline-field-title"></div>
+			</div>
+			<div class="field-block">
+				<div class="field-input"><label for="officerFirstName">Officer First Name</label><br><input wicket:id="officerNameFirst"
+				                                                                                 class="input-officerFirstName"
+				                                                                                 style="width: 164px;"
+				                                                                                 type="text"
+				                                                                                 id="officerFirstName"
+				                                                                                 value=""
+				                                                                                 name="officerFirstName">
+				</div>
+				<div id="inline-field-officerFirstName" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<div class="field-block">
+				<div class="field-input"><label for="officerLastName">Officer Last Name</label><br><input
+						wicket:id="officerNameLast"
+						class="input-officerLastName"
+						style="width: 164px;"
+						type="text"
+						id="officerLastName"
+						value=""
+						name="officerLastName">
+				</div>
+				<div id="inline-field-officerLastName" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<br class="break">
+
+			<div class="field-block">
+				<div class="field-input"><label for="campus">Campus</label><br><input wicket:id="campus"
+				                                                                      class="input-campus"
+				                                                                      style="width: 164px;" type="text"
+				                                                                      id="campus" value=""
+				                                                                      name="campus"></div>
+				<div id="inline-field-campus" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<br class="break">
+
+			<div class="field-block">
+				<div class="field-input"><label for="file">Signed/Scanned PDF Application</label><br><input
+						wicket:id="file" class="input-file" style="width: 164px;" type="file" id="file" name="file">
+				</div>
+				<div id="inline-field-file" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<br class="break">
+
+			<div class="field-block">
+				<div class="textArea-input"><label for="notes">Notes</label><br><textarea wicket:id="notes"
+				                                                                          class="input-notes"
+				                                                                          name="notes" rows="4"
+				                                                                          cols="40"
+				                                                                          id="notes"></textarea></div>
+				<div id="inline-field-notes" class="inline-field-title" style="display: block; "></div>
+			</div>
+			<br class="break">
+
+			<div class="button-block">
+				<div class="button-input"><input type="submit" id="submit" class="input-submit"></div>
+			</div>
+		</div>
+	</form>
+</div>
+<br class="break">
+<br class="break">
+
+<div align="center">
+	<a href="http://www.instantssl.com">
+		<img src="http://apply.asfgrp.com/images/comodo_secure_113x59_transp.png"
+		     alt="Instant SSL Certificate Secure Site" width="113" height="59" style="border: 0px;"><br> <span
+			style="font-weight:bold; font-size:7pt">Instant SSL Certificate Secured</span> </a><br>
+</div>
+</body>
+</html>

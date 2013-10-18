@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"/>
+	<title>Thank You</title>
+</head>
+<body>
+<div align="center" class="header-image" id="header-image">
+	<a href="https://apply.asfgrp.com"><img src="http://apply.asfgrp.com/images/ASFG-Web-06_01.gif" alt="ASFG"
+	                                        width="979" height="119" border="0"></a>
+</div>
+<br>
+
+<div align="center">
+	<h2>
+		Thank you! Your application was received.<br>Please allow 15 minutes for processing, results will be returned
+		to the email you provided.
+	</h2>
+
+	<p>
+		Contact us at 858-794-2734 or email processing@asfgrp.com with any questions or concerns.
+</div>
+</body>
+</html>
